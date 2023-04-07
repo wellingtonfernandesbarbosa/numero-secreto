@@ -33,7 +33,7 @@ function numeroForMaiorOuMenorQueOoValorPermitido(numero){
 };
 
 document.body.addEventListener('click', e => {
-    if (e.target.id == jogar-novamente){
+    if (e.target.id == 'jogar-novamente'){
         window.location.reload();
     }
 });
